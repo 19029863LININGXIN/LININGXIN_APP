@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LININGXIN_APP</string>
+    <string name="tvSong">Movie Name</string>
+    <string name="etTitle">Enter Movie Name here</string>
+    <string name="tvSingers">Movie Description</string>
+    <string name="etSinger">Enter Movie\'s Description here</string>
+    <string name="tvYear">Suitable age</string>
+    <string name="etYear">Enter age here</string>
+    <string name="tvStar">Star</string>
+    <string name="btnInsert">insert</string>
+    <string name="btnShow">show list</string>
+    <string name="btnShowStar">show all songs with 5 stars</string>
+    <string name="btnUpdate">update</string>
+    <string name="btnDel">delete</string>
+    <string name="btnCancel">cancel</string>
+    <string name="tvID">ID</string>
+</resources>

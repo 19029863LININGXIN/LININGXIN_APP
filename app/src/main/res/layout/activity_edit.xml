@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvID"
+        android:textColor="#F5E3FA" />
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Movie ID here"
+        android:inputType="textPersonName"
+        android:textColor="#FFE2ED"
+        android:textColorHint="#FFE0EB" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSong"
+        android:textColor="#F5E3FA" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Movie name here"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFE0EB" />
+
+    <TextView
+        android:id="@+id/tvSingers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSingers"
+        android:textColor="#F5E3FA" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Movie description here"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFE0EB" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvYear"
+        android:textColor="#F5E3FA" />
+
+    <EditText
+        android:id="@+id/etArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter age here"
+        android:inputType="textPersonName"
+        android:textColor="#FFE2ED"
+        android:textColorHint="#FFE0EB" />
+
+    <TextView
+        android:id="@+id/tvStar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvStar"
+        android:textColor="#F5E3FA" />
+
+    <!--<RadioGroup
+        android:id="@+id/rgStar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rgStar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/rgStar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/rgStar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/rgStar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <RadioButton
+            android:id="@+id/rgStar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+    </RadioGroup>-->
+
+    <RatingBar
+        android:id="@+id/rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="1"
+        android:stepSize="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/btnUpdate"
+            android:textColor="#1A76C6"
+            app:backgroundTint="#F6B6CE" />
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/btnDel"
+            android:textColor="#1A76C6"
+            app:backgroundTint="#F6B6CE" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/btnCancel"
+        android:textColor="#1A76C6"
+        app:backgroundTint="#F6B6CE" />
+
+</LinearLayout>
